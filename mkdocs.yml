@@ -64,3 +64,6 @@ nav: # Структура сайта
 - Пошаговые инструкции:
   - Instructions/index.md
   - Публичный канал в Telegram: Instructions/public channel Telegram.md   
+plugins:
+  - search
+  - glightbox
