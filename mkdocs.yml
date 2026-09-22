@@ -66,4 +66,7 @@ nav: # Структура сайта
   - Публичный канал в Telegram: Instructions/public channel Telegram.md   
 plugins:
   - search
+  - glightbox
+plugins:
+  - search
   - glightbox  
