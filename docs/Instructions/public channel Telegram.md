@@ -13,7 +13,7 @@
 ![screenshot_message](../images/screenshot_message.jpg){ width="300" style="display:block; margin:0 left;" }
 
 3. Выберите **Создать канал**.
-4. Нажмите на кнопку **Создать канал**.
+4. Нажмите кнопку **Создать канал**.
 5. Введите название и описание канала. Нажмите на иконку **Камеры**, чтобы выбрать изображение канала.
 
 ![screenshot_camera](../images/screenshot_camera.jpg){ width="300" style="display:block; margin:0 left;" }
