@@ -66,6 +66,3 @@ nav: # Структура сайта
 plugins:
   - search
   - glightbox
-plugins:
-  - search
-  - glightbox  
