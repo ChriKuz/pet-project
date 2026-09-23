@@ -59,8 +59,6 @@ nav: # Структура сайта
 - Главная страница: index.md
 - Пользовательские сценарии:
   - User-flow/index.md
-  - Отправка отложенного сообщения в Telegram: User-flow/delayed message Telegram.md
-  - Отправка сообщения в Telegram без уведомления: User-flow/no-notification message Telegram.md
   - Редактирование заметки: User-flow/note editing.md 
 - Пошаговые инструкции:
   - Instructions/index.md
