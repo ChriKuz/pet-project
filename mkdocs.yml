@@ -62,7 +62,10 @@ nav: # Структура сайта
   - Редактирование заметки: User-flow/note editing.md 
 - Пошаговые инструкции:
   - Instructions/index.md
-  - Публичный канал в Telegram: Instructions/public channel Telegram.md   
+  - Публичный канал в Telegram: Instructions/public channel Telegram.md  
+- Спецификации:
+  - api/swagger.md
 plugins:
   - search
   - glightbox
+  - swagger-ui-tag
