@@ -65,7 +65,10 @@ nav: # Структура сайта
   - Публичный канал в Telegram: Instructions/public channel Telegram.md  
 - Спецификации:
   - api/swagger.md
+- Диаграмма последовательности: diagram.md
 plugins:
   - search
   - glightbox
   - swagger-ui-tag
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
