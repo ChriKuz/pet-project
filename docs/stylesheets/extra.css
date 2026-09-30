@@ -6,8 +6,8 @@
   --md-typeset-a-color: #6490f6; /*Цвет ссылок*/
   --md-default-bg-color: #f0f8ff; /*Фоновый цвет*/
   --md-default-fg-color: #414141; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
-  --md-code-bg-color: #ffffff; /*Цвет фона блока кода*/
-  --md-code-fg-color: #5c5b5b; /*Цвет текста в блоке кода*/
+  --md-code-bg-color: #0088f733; /*Цвет фона блока кода*/
+  --md-code-fg-color: #2a2929; /*Цвет текста в блоке кода*/
   --md-default-fg-color--light: #1f1f1f; /*Цвет h1 и заголовков блоков toc и nav*/
   --md-search__form-background: #ffffff; 
 
@@ -24,8 +24,8 @@
   --md-typeset-a-color: #6490f6; /*Цвет ссылок*/
   --md-default-bg-color: #1f1f1f; /*Фоновый цвет*/
   --md-default-fg-color: #c8c8c8; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
-  --md-code-bg-color: #ffffff; /*Цвет фона блока кода*/
-  --md-code-fg-color: #5c5b5b; /*Цвет текста в блоке кода*/
+  --md-code-bg-color: #58b1fb53; /*Цвет фона блока кода*/
+  --md-code-fg-color: #e4e4e4; /*Цвет текста в блоке кода*/
   --md-default-fg-color--light: #c8c8c8; /*Цвет h1 и заголовков блоков toc и nav*/
   --md-search__input-color: #c8c8c8;
 }
@@ -216,4 +216,60 @@
 
 .md-header .md-header__option:hover {
     color: #ffffff;
+}
+.md-typeset .admonition,
+.md-typeset details {
+    margin: 1.5rem 0;
+    padding: 0;
+
+    border: 2px solid #0088f7;
+    border-left: 2px solid #0088f7;
+    border-radius: 10px;
+
+    background: #eff6ff;
+
+    overflow: hidden;
+}
+
+
+/* Заголовок уведомления */
+.md-typeset .admonition-title {
+    margin: 0;
+    padding: 12px 16px;
+
+    background: #dbeafe;
+
+    color: #0088f7;
+
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+
+/* Текст внутри уведомления */
+.md-typeset .admonition > :not(.admonition-title),
+.md-typeset details > :not(summary) {
+    padding: 0 18px;
+
+    color: #18191c;
+}
+
+
+/* Последний элемент */
+.md-typeset .admonition > :last-child {
+    margin-bottom: 16px;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition {
+    background: #1f1f1f;
+    border-color: #0088f7;
+    border-left-color: #60a5fa;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition-title {
+    background: #62626229;
+    color: #0088f7;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition > :not(.admonition-title) {
+    color: #d1d5db;
 }
