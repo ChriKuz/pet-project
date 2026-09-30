@@ -13,7 +13,7 @@ theme: # Тема сайта, информация о ее параметрах
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
         name: Выключить солнышко # Всплывающий текст-подсказка
-      primary: black # Основной цвет
+      primary: white # Основной цвет
       accent: deep purple # Акцентный цвет
       # вы можете использовать любой цвет из списка: 
       # red; pink; purple; deep purple; indigo; blue; light blue; cyan; teal; 
@@ -55,6 +55,7 @@ markdown_extensions: # Расширения markdown
   - pymdownx.emoji: # Иконки и эмодзи
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  
 nav: # Структура сайта
 - Главная страница: index.md
 - Пользовательские сценарии:
@@ -72,3 +73,5 @@ plugins:
   - swagger-ui-tag
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
+extra_css:
+  - stylesheets/extra.css  
